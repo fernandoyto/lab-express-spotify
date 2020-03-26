@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+form > input {
+    width: 80%;
+    height: 75%;
+    margin: auto;
+    opacity: 0.95;
+    background-color: #61469A;
+    color:  grey;
+    font-weight: bolder;
+    font-size: 4vh;
+}
+
+form > button {
+    margin: auto;
+    opacity: 0.95;
+    background-color: #61469A;
+    color:  grey;
+    font-weight: bolder;
+    font-size: 4vh;
+    height: 75%;
+}
+
+.home-page {
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp2056329.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.home-page > form {
+    margin: auto;
+    height: 8vh;
+    width: 50%;
+    display: flex;
+}
+
+.card {
+    /* width: 18rem; */
+    margin: 2px;
+}
+
+.card > img {
+    width: 20vw;
+}

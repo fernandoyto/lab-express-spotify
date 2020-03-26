@@ -34,6 +34,7 @@ const searchArtistAlbums = async (req, res) => {
   try {
     const albums = await spotifyApi.getArtistAlbums(artistId);
     const albumsArray = albums.body.items;
+    console.log(albumsArray[0].images)
     res.render('albums', { albumsArray });
   } catch (err) {
     console.log('An error ocurred while searching for the albums: ', err);
